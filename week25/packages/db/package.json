@@ -11,7 +11,7 @@
   "license": "ISC",
   "type": "module",
   "exports": {
-    "./prismaClient": "./src/prismaClient.ts"
+    "./prismaClient": "./src/prismaClient.js"
   },
   "devDependencies": {
     "@types/node": "^24.0.3",
