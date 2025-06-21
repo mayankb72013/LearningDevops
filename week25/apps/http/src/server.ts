@@ -28,4 +28,12 @@ app.post("/signup",async function (req,res) {
     }
 })
 
+app.get("/user",async function (req,res) {
+    const user = await client.user.findFirst()
+
+    res.json({
+        user: user
+    })
+})
+
 app.listen(3001);
